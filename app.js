@@ -109,7 +109,7 @@ app.post('/get/salesorder', (req, res, next) => {
   
     axios({ url: "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('" + req.body.so_no + "')", 
     method : 'get', headers : {
-    apikey: '4bLchgPSlaqrPINB9qW36e6CSbURGpdJ'
+    apikey: ''
   
                             }
      }),
